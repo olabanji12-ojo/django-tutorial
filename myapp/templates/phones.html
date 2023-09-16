@@ -1,0 +1,14 @@
+{% extends "master.html" %}
+ {% block title %}
+ phones
+ {% endblock %}
+
+ {% block content %}
+ <h1>details about {{myphones.manufacturer}}</h1>
+ <p>manufacturer: {{myphones.manufacturer}}</p>
+ <p>product_name: {{myphones.product_name}} </p>
+ <p>battery_capacity: {{mycars.battery_capacity}}</p>
+ <p>camera: {{myphones.camera}}</p>
+ <p>back to <a href="/products/phone_to_choose"> phone_to_choose</a></p>
+ 
+{% endblock %}

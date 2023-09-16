@@ -1,0 +1,18 @@
+{% extends "master.html %"}
+
+{% block title %}
+laptops
+{% endblock %}
+
+{% block content %}
+
+<div>
+<h1>details about {{mystudents.name}}</h1>
+<p>name {{mystudents.name}}</p>
+<p>price {{mystudents.price}} </p>
+<p>operating_system {{mystudents.operating_system}}</p>
+<p>back to <a href="/products/myapp"> myapp</a></p>
+</div>
+
+{% endblock %}
+       

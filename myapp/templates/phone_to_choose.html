@@ -1,0 +1,23 @@
+{% extends "master.html" %}
+
+{% block title %}
+phone_to_choose
+{% endblock %}
+
+{% block content %}
+<div>
+<p style="text-align: left;"><a href="/">HOME</a></p>
+<h1>check out our phones</h1>
+<div>
+    <ul>
+        {% for x in myphones %}
+        <h2><li><a href="phones/{{ x.id }}"> {{x.manufacturer}} </a> </li></h2>
+        {% endfor %}
+    </ul>
+</div>
+<p style="text-align: left;"> back to <a href="/products">PRODUCTS</a></p>
+
+</div>
+{% endblock %}
+
+        

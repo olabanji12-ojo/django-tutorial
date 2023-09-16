@@ -1,0 +1,24 @@
+.main, .main h1 {
+    text-align:center;
+    color:#375BDC;
+  }
+
+.city{
+    background-color: #375BDC;
+    color:#ffffff;
+    padding:10px;
+
+}
+
+a:link, a:visited {
+    color: #375BDC; 
+  }
+
+.products{
+    color: #375BDC;
+    text-align: center;
+}
+
+.boy{
+  color: black;
+}

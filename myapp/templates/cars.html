@@ -1,0 +1,16 @@
+{% extends "master.html" %}
+
+{% block title %}
+cars
+{% endblock %}
+
+{% block content %}
+<p>details about {{mycars.name}}</p>
+<p>name: {{mycars.name}}</p>
+<p>year_produced: {{mycars.year_produced}}</p>
+<p>price: {{mycars.price}}</p>
+<p>back to <a href="/products/cars_to_buy"> cars_to_buy</a></p>
+
+{% endblock %}
+       
+        
