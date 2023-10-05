@@ -1,0 +1,28 @@
+.main, .main h1 {
+    text-align:center;
+    color:#375BDC;
+  }
+
+.city{
+    background-color: #0000d2;
+    color :#375BDC;
+    padding:10px;
+
+}
+
+a:link, a:visited {
+    color: #375BDC; 
+  }
+
+.products{
+    color: #375BDC;
+    text-align: center;
+}
+
+body{
+    background-color: #cccccc;
+    margin:0;
+    font: 600 18px 'Source Sans Pro', sans-serif;
+    letter-spacing: 0.64px;
+    color: #585d74;
+}
